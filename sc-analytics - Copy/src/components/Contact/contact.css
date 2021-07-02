@@ -1,0 +1,36 @@
+.contactForm {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 2.5%;
+  color: gray;
+  box-shadow: 2px 2px 5px grey;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+.MyForm {
+  background-color: teal;
+  color: whitesmoke;
+  height: 300px;
+  padding-top: 20px;
+  border-radius: 15px;
+  
+}
+.textField {
+  width: 280px;
+  height: 20px;
+  border: 2px solid whitesmoke;
+}
+.textArea {
+  width: 602px;
+  height: 40px;
+  margin-top: 20px;
+  border: 2px solid whitesmoke;
+}
+.submitButton {
+  height: 30px;
+  width: 150px;
+  color: whitesmoke;
+  background-color: #303030;
+  border-radius: 5px;
+  outline: none;
+}

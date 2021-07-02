@@ -1,0 +1,168 @@
+/* html, body {
+  
+} */
+
+.wrapper {
+  /* background-image: url('https://www.calculators.org/graphics/math-sketches.jpg'); */
+   background-color: whitesmoke;
+   height: 100vw;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.resultsdiv{
+  font-family:'https://fonts.googleapis.com/css?family=Quicksand';
+}
+
+
+.start-div {
+  
+  background-image: url('https://i0.wp.com/data.whicdn.com/images/222459533/original.gif');
+  width: 20%;
+  height: 50px;
+  border: 2px solid brown;
+  color: whitesmoke;
+  margin-top: 20%;
+  margin-left: 41%;
+  font-size: x-large; 
+  font-weight:470;
+}
+
+@keyframes start-animation {
+  
+}
+
+/*
+.start {
+  display: 'flex',
+  Align-Items: 'center',
+  justifyContent: 'center',
+}*/
+
+.mainFeature {
+  margin-top: 5%;
+  /* background-color: grey; */
+  text-align: center;
+  height: 50px;
+  width: 50%;
+  margin-left: 25%;;
+}
+.back-btn{
+  background-color: teal;
+  border-radius: 10px;
+  width:60px;
+  margin-left: 200px;
+  margin-top: 10px;
+  padding: 5px;
+  color:white;
+}
+
+.capture-btn{
+  background-color: teal;
+  border-radius: 10px;
+  width:60px;
+  margin-left: 400px;
+  margin-top: 10px;
+  padding: 5px;
+  color:white;
+}
+
+.corrFeature {
+  margin-top: 6%;
+  /* background-color:whitesmoke;  */
+  text-align: center;
+  height: 150px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 25%;
+  
+}
+
+.MainFeatDrop{
+  align-self: center;
+  background-color: teal;
+  color:white;
+  font-size: 150%;
+  width: 60%;
+  height: 100%;
+  border-radius: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+
+
+.searchBox#css_custom_input::placeholder { color: white; font-size: 100%;}
+
+
+
+.optionContainer li:hover{
+  background: orange;
+  color: #fff;
+}
+.optionContainer .highlight {
+  background: teal;
+  color: #fff;
+} 
+
+.multi-align{
+  /* align-content: center;
+  align-self: center; */
+  margin-left: 13%;
+}
+
+/* #demo-mutiple-chip{
+  width: 25rem;
+  font-size: 1rem;
+} */
+
+#select-multiple-chip{
+  color: orange;
+}
+
+
+
+/* ........................................Feature Help .................................*/
+.featureHelp {
+  /* background-color: teal; */
+  border: 2px solid teal;
+  opacity: 0.9;
+  color: #303030;
+  box-shadow: 2px 2px 5px #888888;
+  margin-top: 6%;
+  border-radius: 15px;
+  width: 50%;
+  margin-left: 25%;
+  padding: 10px;
+}
+
+
+/* ........................................ABOUT.................................*/
+.About{
+  margin-top: 4%;
+  text-align: center;
+  animation-name: about-animation;
+  animation-duration: 2s;
+}
+
+
+@keyframes about-animation {
+  0% {opacity: 0;}
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  100%{opacity: 1;}
+
+}
+
+
+
+/* ........................................Contact.................................*/
+.contact {
+  
+  text-align: center;
+  background-color: grey;
+  color: white;
+  display: inline-block;
+  margin-top: 15%;
+  margin-left: 40%;
+  padding: 2%;
+  border-radius: 10%;
+}
